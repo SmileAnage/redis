@@ -62,17 +62,6 @@
 # 修改指定元素相关操作
 13、LSET key index newvalue
 ```
-
-**思考：**
-
-**Redis列表如何当做共享队列来使用？？？**
-
-```python
-# 同学你好，你还记得小米应用商店爬取URL地址的案例吗？
-1、生产者消费者模型
-2、生产者进程在列表中 LPUSH | RPUSH 数据，消费者进程在列表中 BRPOP | BLPOP 数据
-```
-
 ### **Python与redis交互注意**
 
 ```python
@@ -86,10 +75,6 @@ r.expire('name', 5)
 # 有元素时返回弹出元素,否则返回None
 3、r.brpop('mylist',3)
 ```
-
-# **redis_day02笔记**
-
-
 
 ## **==位图操作bitmap==**
 
