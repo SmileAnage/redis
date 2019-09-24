@@ -1,5 +1,3 @@
-# **redis_day01回顾**
-
 ## **Redis的特点**
 
 ```python
