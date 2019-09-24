@@ -102,8 +102,6 @@ zunionstore destination numkeys key [weights 权重值] [AGGREGATE SUM|MIN|MAX]
 ZINTERSTORE destination numkeys key1 key2 WEIGHTS weight AGGREGATE SUM|MIN|MAX
 ```
 
-# **redis_day03笔记**
-
 ## **==有序集合sortedset==**
 
 **有序集合的交集与并集**
